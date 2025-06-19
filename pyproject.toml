@@ -1,0 +1,16 @@
+[project]
+name = "llms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "docling>=2.37.0",
+    "easyocr>=1.7.2",
+    "pdf2image>=1.17.0",
+    "pdfplumber>=0.11.7",
+    "pillow>=11.2.1",
+    "pydantic-ai[groq]>=0.3.1",
+    "pymupdf>=1.26.1",
+    "pytesseract>=0.3.13",
+]
